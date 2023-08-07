@@ -23,7 +23,7 @@ Lab: Work done @ Caltech Biophotonics Lab
 email: rcao@caltech.edu
 description: >- # this means to ignore newlines until "baseurl:"
   This page shows some complex field reconstruction reconstruction results using APIC (Angular Ptychographic Imaging with Closed-form method).
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/APIC_Results" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
 github_username:  rzcao
