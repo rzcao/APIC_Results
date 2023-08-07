@@ -128,3 +128,5 @@ Click and slide the light orange slider to compare two images. (To download the 
         resizer.addEventListener('mousedown', mouseDownHandler);
     });
 </script>
+
+## Highly aberrated samples
