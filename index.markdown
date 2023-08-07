@@ -4,7 +4,9 @@
 
 layout: home
 ---
-# H&E stained breast cancer cells
+
+
+## H&E stained breast cancer cells 
 
 Here is an example of using APIC to do color reconstructions. A hematoxylin and eosin (H&E) stained breast cancer sample was imaged under red, green, and blue LEDs. APIC was used to do the complex field reconstructions. 
 
