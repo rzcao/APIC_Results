@@ -86,11 +86,44 @@ Click and slide the light orange slider to compare two images. (To download the 
             document.addEventListener('mousemove', mouseMoveHandler);
             document.addEventListener('mouseup', mouseUpHandler);
         };
+
+        const touchStartHandler = function (e) {
+            // Get the current touch position
+            x = e.touches[0].clientX;
+            y = e.touches[0].clientY;
+            leftWidth = leftSide.getBoundingClientRect().width;
+  
+            // Attach the listeners to `document`
+            document.addEventListener('touchmove', touchMoveHandler);
+            document.addEventListener('touchend', touchEndHandler);
+        };
   
         const mouseMoveHandler = function (e) {
             // How far the mouse has been moved
             const dx = e.clientX - x;
             const dy = e.clientY - y;
+  
+            let newLeftWidth = ((leftWidth + dx) * 100) / resizer.parentNode.getBoundingClientRect().width;
+            newLeftWidth = Math.max(newLeftWidth, 0);
+            newLeftWidth = Math.min(newLeftWidth, 100);
+  
+            leftSide.style.width = `${newLeftWidth}%`;
+            resizer.style.left = `${newLeftWidth}%`;
+  
+            resizer.style.cursor = 'col-resize';
+            resizer.parentNode.style.cursor = 'col-resize';
+  
+            leftSide.style.userSelect = 'none';
+            leftSide.style.pointerEvents = 'none';
+  
+            rightSide.style.userSelect = 'none';
+            rightSide.style.pointerEvents = 'none';
+        };
+
+        const touchMoveHandler = function (e) {
+            // How far the mouse has been moved
+            const dx = e.changedTouches[0].clientX - x;
+            const dy = e.changedTouches[0].clientY - y;
   
             let newLeftWidth = ((leftWidth + dx) * 100) / resizer.parentNode.getBoundingClientRect().width;
             newLeftWidth = Math.max(newLeftWidth, 0);
@@ -123,9 +156,25 @@ Click and slide the light orange slider to compare two images. (To download the 
             document.removeEventListener('mousemove', mouseMoveHandler);
             document.removeEventListener('mouseup', mouseUpHandler);
         };
+
+        const touchEndHandler = function () {
+            resizer.style.removeProperty('cursor');
+            resizer.parentNode.style.removeProperty('cursor');
+  
+            leftSide.style.removeProperty('user-select');
+            leftSide.style.removeProperty('pointer-events');
+  
+            rightSide.style.removeProperty('user-select');
+            rightSide.style.removeProperty('pointer-events');
+  
+            // Remove the handlers of `touchmove` and `touchend`
+            document.removeEventListener('touchmove', touchMoveHandler);
+            document.removeEventListener('touchend', touchEndHandler);
+        };
   
         // Attach the handler
         resizer.addEventListener('mousedown', mouseDownHandler);
+        resizer.addEventListener('touchstart', touchStartHandler);
     });
 </script>
 
