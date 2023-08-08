@@ -3,8 +3,8 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
+title: APIC results
 ---
-
 
 ## H&E stained breast cancer cells 
 
