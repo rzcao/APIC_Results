@@ -130,3 +130,4 @@ Click and slide the light orange slider to compare two images. (To download the 
 </script>
 
 ## Highly aberrated samples
+The following shows an example of using APIC to extract aberration of an imaging system and perform complex field reconstruction with aberration correction.
