@@ -23,13 +23,16 @@ Click and slide the light orange slider to compare two images. (To download the 
         position: relative;
     }
     .resizer {
-        background-color: #fff2d183;
+        background: #fff2d183;
         cursor: ew-resize;
         height: 100%;
         left: 50%;
         position: absolute;
         top: 0;
-        width: 4px;
+        width: 8px;
+        @media (max-width: 600px){
+            width: 16px;
+        }
     }
     .modified-image {
         background-position: top left;
