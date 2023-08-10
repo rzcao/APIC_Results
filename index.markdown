@@ -90,7 +90,7 @@ width: 300px;
 </style>
 
 ## Reconstruction using a small dataset
-We imaged a Siemens star target and conducted reconstructions using FPM and APIC using a small dataset. We also imaged the Siemens star target using a 40x objective, whose NA is matched with the theoretical synthetic NA of APIC. The results are shown in the following. Although FPM's reconstruction is visually similar to the other two images, we can nonetheless see that the reconstructed spokes in FPM are distorted (see the spokes on the upper half of the image). From the figure on the right, we can see APIC is closer to the ground truth.
+We imaged a Siemens star target and conducted reconstructions using FPM and APIC with a small dataset. We also imaged the Siemens star target using a 40x objective, whose NA is matched with the theoretical synthetic NA of APIC. The results are shown in the following. Although FPM's reconstruction is visually similar to the other two images, we can nonetheless see that the reconstructed spokes in FPM are distorted (see the spokes on the upper half of the image). From the figure on the right, we can see APIC is closer to the ground truth.
 <div class="row">
   <div class="column">
     <div class="container">
