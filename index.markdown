@@ -54,12 +54,12 @@ title: APIC results
     }
     .container afterNew {
       position: absolute;
-      right: 50px;
+      right: 12%;
       top: 10px;
     }
     .container afterNewPhase {
       position: absolute;
-      right: 60px;
+      right: 15%;
       top: 10px;
     }
           
@@ -100,6 +100,7 @@ We imaged a Siemens star target and conducted reconstructions using FPM and APIC
       <beforeNew><h2 style="color:floralwhite;">FPM</h2></beforeNew>
       <afterNewPhase><h2 style="color:floralwhite;">APIC</h2></afterNewPhase>
     </div>
+    <figcaption>Fig. 1. Reconstructed Siemens star target using FPM and APIC.</figcaption>
   </div>
   <div class="column">
     <div class="container">
@@ -109,9 +110,12 @@ We imaged a Siemens star target and conducted reconstructions using FPM and APIC
       <beforeNew><h2 style="color:floralwhite;">GT</h2></beforeNew>
       <afterNewPhase><h2 style="color:floralwhite;">APIC</h2></afterNewPhase>
     </div>
+    <figcaption>Fig. 2. Reconstruction of APIC vs the ground truth.</figcaption>
   </div>
 </div>
-<br/> <br/>
+<div style="line-height:150%;">
+    <br>
+</div>
 
 ## Highly aberrated samples
 
@@ -126,6 +130,7 @@ The following shows an example of using APIC to extract aberration of an imaging
       <beforeNew><h2 style="color:black;">&nbsp;FPM</h2></beforeNew>
       <afterNew><h2 style="color:black;">APIC</h2></afterNew>
     </div>
+    <figcaption>Fig. 3. Amplitude reconstructions of FPM and APIC.</figcaption>
   </div>
   <div class="column">
     <div class="container">
@@ -135,11 +140,17 @@ The following shows an example of using APIC to extract aberration of an imaging
       <beforeNew><h2 style="color:black;">FPM</h2></beforeNew>
       <afterNewPhase><h2 style="color:black;">APIC</h2></afterNewPhase>
     </div>
+    <figcaption>Fig. 4. Phase reconstructions of FPM and APIC.</figcaption>
   </div>
+</div>
+<div style="line-height:50%;">
+    <br>
 </div>
 
 As we can see from the results shown above, APIC successfully reconstructed the phase and amplitude of the sample. In contrast, FPM reconstructions are severely distorted. This is because FPM failed to retrieve the correct aberration function while APIC demonstrated unparalleled robustness against aberrations.
-<br/> <br/>
+<div style="line-height:150%;">
+    <br>
+</div>
 
 ## H&E stained breast cancer cells 
 
@@ -159,6 +170,10 @@ Click and slide the light orange slider to compare two images. (To download the 
       <before><h1 style="color:floralwhite;">Kohler</h1></before>
       <after><h1 style="color:floralwhite;">APIC</h1></after>
 </div>
+<figcaption>Fig. 5. Color image under kohler illumination and reconstructed color image using APIC.</figcaption>
+<div style="line-height:50%;">
+    <br>
+</div>
 
 The comparison of FPM reconstructed color image and APIC reconstructed image can be found below. We selected two different regions to do reconstructon. The one shown on the left was reconstructed using the central patch and the one on the left was from an off-axis patch. It is easy to see the reconstruction using FPM is noisier compared with the one reconstructed by APIC.
 
@@ -171,6 +186,7 @@ The comparison of FPM reconstructed color image and APIC reconstructed image can
       <before><h2 style="color:floralwhite;">FPM</h2></before>
       <after><h2 style="color:floralwhite;">APIC</h2></after>
     </div>
+    <figcaption>Fig. 6. FPM and APIC reconstructed color image (central patch).</figcaption>
   </div>
   <div class="column">
     <div class="container">
@@ -180,6 +196,7 @@ The comparison of FPM reconstructed color image and APIC reconstructed image can
       <before><h2 style="color:floralwhite;">FPM</h2></before>
       <after><h2 style="color:floralwhite;">APIC</h2></after>
     </div>
+    <figcaption>Fig. 7. FPM and APIC reconstructed color image (offaxis patch).</figcaption>
   </div>
 </div>
 
