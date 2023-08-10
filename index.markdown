@@ -49,7 +49,7 @@ title: APIC results
     }
     .container beforeNew {
       position: absolute;
-      left: 30px;
+      left: 15px;
       top: 10px;
     }
     .container afterNew {
@@ -97,7 +97,7 @@ We imaged a Siemens star target and conducted reconstructions using FPM and APIC
       <div class="modified-image" style="background-image: url('img/Siemens_smallDataset_FPM.jpg')"></div>
       <div class="resizer" id="dragMe1"></div>
       <img src="img/Siemens_smallDataset_APIC.jpg">
-      <before><h2 style="color:floralwhite;">FPM</h2></before>
+      <beforeNew><h2 style="color:floralwhite;">FPM</h2></beforeNew>
       <afterNewPhase><h2 style="color:floralwhite;">APIC</h2></afterNewPhase>
     </div>
   </div>
@@ -123,7 +123,7 @@ The following shows an example of using APIC to extract aberration of an imaging
       <div class="modified-image" style="background-image: url('img/Thyroid_amp_FPM.jpg')"></div>
       <div class="resizer" id="dragMe3"></div>
       <img src="img/Thyroid_amp_APIC.jpg">
-      <beforeNew><h2 style="color:black;">FPM</h2></beforeNew>
+      <beforeNew><h2 style="color:black;">&nbsp;FPM</h2></beforeNew>
       <afterNew><h2 style="color:black;">APIC</h2></afterNew>
     </div>
   </div>
