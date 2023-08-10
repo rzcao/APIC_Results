@@ -175,7 +175,7 @@ Click and slide the light orange slider to compare two images. (To download the 
     <br>
 </div>
 
-The comparison of FPM reconstructed color image and APIC reconstructed image can be found below. We selected two different regions to do reconstructon. The one shown on the left was reconstructed using the central patch and the one on the left was from an off-axis patch. It is easy to see the reconstruction using FPM is noisier compared with the one reconstructed by APIC.
+The comparison of FPM reconstructed color image and APIC reconstructed image can be found below. We selected two different regions to do reconstructon. The one shown on the left was reconstructed using the central patch and the one on the right was from an off-axis patch. It is easy to see the reconstruction using FPM is noisier compared with the one reconstructed by APIC.
 
 <div class="row">
   <div class="column">
