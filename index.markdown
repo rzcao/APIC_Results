@@ -156,7 +156,7 @@ As we can see from the results shown above, APIC successfully reconstructed the 
 
 Here is an example of using APIC to do color reconstructions. A hematoxylin and eosin (H&E) stained breast cancer sample was imaged using red, green, and blue LEDs. APIC was used to do the complex field reconstructions. 
 
-The comparison of a small region of APIC reconstructed result and the raw measurement under Kohler illumination can be found in the figuer below.
+The comparison of a small region of APIC reconstructed result and the raw measurement under Kohler illumination can be found in the figure below.
 
 
 Click and slide the light orange slider to compare two images. (To download the full size image, click here:
