@@ -119,7 +119,7 @@ We imaged a Siemens star target and conducted reconstructions using FPM and APIC
 
 ## Highly aberrated samples
 
-The following shows an example of using APIC to extract aberration of an imaging system and perform complex field reconstruction with aberration correction. FPM reconstructioned amplitude and phase are also shown for comparison.
+The following shows an example of using APIC to extract aberration of an imaging system and perform complex field reconstruction with aberration correction. FPM reconstructed amplitude and phase are also shown for comparison.
 
 <div class="row">
   <div class="column">
@@ -154,7 +154,7 @@ As we can see from the results shown above, APIC successfully reconstructed the 
 
 ## H&E stained breast cancer cells 
 
-Here is an example of using APIC to do color reconstructions. A hematoxylin and eosin (H&E) stained breast cancer sample was imaged under red, green, and blue LEDs. APIC was used to do the complex field reconstructions. 
+Here is an example of using APIC to do color reconstructions. A hematoxylin and eosin (H&E) stained breast cancer sample was imaged using red, green, and blue LEDs. APIC was used to do the complex field reconstructions. 
 
 The comparison of a small region of APIC reconstructed result and the raw measurement under Kohler illumination can be found in the figuer below.
 
